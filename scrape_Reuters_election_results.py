@@ -355,6 +355,7 @@ toss_up_dat.rename(columns={'': 'state_scrape', 'Dem': 'dem_scrape', 'Rep': 'rep
 
 
 
+
 for j in toss_up_table.find_all("tr")[2:9]:
  row_data = j.find_all("td")
  row = [i.text for i in row_data]
